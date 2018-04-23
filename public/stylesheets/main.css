@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.thumbnail img {
+  height: 350px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+}
+
+.delete {
+  display: inline;
+}
+
+#show {
+  height: 530px;
+}

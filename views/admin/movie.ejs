@@ -1,0 +1,31 @@
+<% include ../partials/header %>
+
+  <% movies.forEach((movie) => { %>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="thumbnail">
+        <img src="<%= movie.image %>" alt="<%= movie.name %>">
+        <p>
+          Created By:
+          <%= movie.author.username %>
+        </p>
+
+        <p>
+          <a>
+            <%= movie.name %>
+          </a>
+        </p>
+
+        <p>
+          <%= movie.description %>
+        </p>
+        <p>
+          <a href="/movies/<%= movie._id %>" class="btn btn-primary">More Info</a>
+        </p>
+        <form action="/admin/movies/<%= movie.id %>?_method=DELETE" method="POST">
+          <button>DELETE</button>
+        </form>
+      </div>
+    </div>
+  <% }); %>
+
+<% include ../partials/footer %>

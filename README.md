@@ -2,7 +2,7 @@
 
   MovieCamp is a dedicated website for users to share information about movies.
 
-  You can view the published website **__[here](http://moviecamp.herokuapp.com/)__**.
+  You can view the published website **__[here](https://moviecamp.herokuapp.com/)__**.
 
 # Functionalities
 

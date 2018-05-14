@@ -4,6 +4,9 @@
 
   You can view the published website **__[here](https://moviecamp.herokuapp.com/)__**.
 
+
+  ![Movie Camp](./pictures/movie-camp-screenshot.png?raw=true "Movie Camp")
+
 # Functionalities
 
   1. register for an account and log in
